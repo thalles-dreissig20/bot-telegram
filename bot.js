@@ -11,7 +11,7 @@ async function run(message) {
     const response = await result.response;
     return response.text();
 }
-
+// afim de testes
 function formatAsText(text) {
     return text
         .replace(/(\*\*)(.*?)\1/g, '*$2*')
